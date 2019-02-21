@@ -8,16 +8,24 @@
   <body>
     <nav><a href="index.html">Home Page</a></nav>
     <form method="POST" action="https://formspree.io/saldanroman@gmail.com">
+      <label>User Name:<input type="text" name="user-name"/></label> <br />
+      <label>User Email:<input type="email" name="user-email"/></label> <br />
+      <label>Select a dog:</label> <br />
       <label
-        >User Name:<input type="text" placeholder="User Name" name="user-name"
-      /></label>
-      <br />
-      <label for="email-input">User Email:</label>
-      <input type="email" name="user-email" id="email-input" /> <br />
-      <label>Gender:</label> <br />
-      <label> <input type="radio" name="gender" value="male" />Male</label>
-      <label> <input type="radio" name="gender" value="female" />Female</label>
-      <label> <input type="radio" name="gender" value="other" />Other</label>
+        ><input
+          type="radio"
+          name="dog"
+          value="LABRADOR-RETRIEVER"
+        />LABRADOR-RETRIEVER</label
+      >
+      <label>
+        <input type="radio" name="dog" value="GERMAN SHEPHERD" />GERMAN
+        SHEPHERD</label
+      >
+      <label>
+        <input type="radio" name="dog" value="BORDER COLLIES" />BORDER
+        COLLIES</label
+      >
       <br />
       <input type="submit" value="SEND" />
     </form>
