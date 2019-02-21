@@ -9,18 +9,34 @@
     <nav><a href="index.html">Home Page</a></nav>
     
     <form method="POST" action="https://formspree.io/saldanroman@gmail.com">
-      <label>User Name:<input type="text" name="user-name"></label>
-      <br>
-      <label>User Email:<input type="email" name="user-email"></label>
-      <br>
-      <label>Select a dog:</label> <br />
-      <label><input type="radio" name="dog" value="LABRADOR-RETRIEVER"> LABRADOR-RETRIEVER </label>
-      <br>
-      <label><input type="radio" name="dog" value="GERMAN-SHEPHERD"> GERMAN SHEPHERD </label>
-      <br>
-      <label><input type="radio" name="dog" value="BORDER-COLLIES"> BORDER-COLLIES </label>
-      <br>
-      <input type="submit" value="SEND" />
+        <label>User Name:<input type="text" name="user-name"></label>
+        <br>
+        <label>User Email:<input type="email" name="user-email"></label>
+        <br>
+        <label>Select a dog:</label> <br />
+        <label><input type="radio" name="dog" value="LABRADOR-RETRIEVER"> LABRADOR-RETRIEVER </label>
+        <br>
+        <label><input type="radio" name="dog" value="GERMAN-SHEPHERD"> GERMAN SHEPHERD </label>
+        <br>
+        <label><input type="radio" name="dog" value="BORDER-COLLIES"> BORDER-COLLIES </label>
+        <br>
+
+        <label>Choos the car:</label> 
+        <br>
+        <select name="Choos the car" size="1">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW (e34M5(S50B35) )</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+            
+        <label>Write your message:</label> 
+        <br>
+        <textarea name="message" cols="30" rows="10" placeholder="Please write your message"></textarea>
+        <br>
+        <input type="submit">
     </form>
+    
   </body>
 </html>
